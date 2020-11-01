@@ -1,0 +1,22 @@
+{
+  "name": "galeria-de-plantas",
+  "version": "1.0.0",
+  "description": "Toma fotos de tus plantas y agrega información sobre ellas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psiale/galeria-de-plantas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psiale/galeria-de-plantas/issues"
+  },
+  "homepage": "https://github.com/Psiale/galeria-de-plantas#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

@@ -1,0 +1,23 @@
+Vamos a hacer formulario que contenga los siguientes datos: foto, nombre, tipo, tiempo de riego (intervalo de días)
+Vamos a hacer tarjetas con la información del formulario 
+La tarjeta se podrá remover (en hover va a bailar)
+
+Funcionalidad:
+    Construir un array que guarde objetos planta
+    Construir un objeto planta: photo, name, type, wti(watering interval time)
+    Hacer una función que tome los datos del formulario
+    Hacer una función que te permita el acceso a la galeria del usuario
+    Hacer una función que te permita regresar una imagen del usuario
+    Hacer una función que construya un nuevo objeto planta
+    Hacer una función que construya una tarjeta a partir del objeto planta
+    Hacer una función que remueva una tarjeta (vinculada a un botón)
+    Utilizar localStorage para guardar y recuperar información del array
+
+Como debe verse 
+    Debe tener una pantalalal principal
+        Header: icono y título de la app
+        Body:
+            Ya tenemos el background 
+            Desktop: Formulario fijo a la izquierda, Container of plantita´s cards
+            Mobile: Un botón que al presionarlo despliegue un formulario como en la aplicación de libros de Ana (copiar el código, como ella copia el código de mis proyectos)
+        Footer: Created_by: Hacer una función que muestre aleatoriamente el orden en el que nuestros nombres se originen y caguen en el documento de HTML

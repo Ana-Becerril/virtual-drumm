@@ -11,7 +11,7 @@ Funcionalidad:
     Hacer una función que construya un nuevo objeto planta
     Hacer una función que construya una tarjeta a partir del objeto planta
     Hacer una función que remueva una tarjeta (vinculada a un botón)
-    Utilizar localStorage para guardar y recuperar información del array
+    Utilizar localStorage para gu   ardar y recuperar información del array
 
 Como debe verse 
     Debe tener una pantalalal principal

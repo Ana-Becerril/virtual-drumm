@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Psiale/galeria-de-plantas/issues"
   },
-  "homepage": "https://github.com/Psiale/galeria-de-plantas#readme",
-  "devDependencies": {
-    "tailwindcss": "^1.9.6"
-  }
+  "homepage": "https://github.com/Psiale/galeria-de-plantas#readme"
 }

@@ -70,7 +70,7 @@ const soundsArr=[];
 
 
 
-addTextElements(soundOne, '<img src="../images/clap.png" >', "CLAP")
+addTextElements(soundOne, '<img src="images/clap.png" >', "CLAP")
 
 
 

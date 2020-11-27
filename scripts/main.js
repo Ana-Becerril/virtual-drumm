@@ -64,3 +64,11 @@ const addTextElements = (container, soundText) => {
 
 
 addTextElements(soundOne, 'CLAP');
+addTextElements(soundTwo, 'HIHAT');
+addTextElements(soundThree, 'KICK');
+addTextElements(soundFour, 'OPENHAT');
+addTextElements(soundFive, 'BOOM');
+addTextElements(soundSix, 'RIDE');
+addTextElements(soundSeven, 'SNARE');
+addTextElements(soundEight, 'TOM');
+addTextElements(soundNine, 'TINK');

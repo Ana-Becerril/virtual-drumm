@@ -46,3 +46,9 @@ body{
     width: 20px;
     height: 20px;
 }
+
+.sub-title{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: yellow;
+    font-size: 28px;
+}

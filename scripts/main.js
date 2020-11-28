@@ -10,7 +10,7 @@ const soundSeven = document.createElement('div');
 const soundEight = document.createElement('div');
 const soundNine = document.createElement('div');
 drums.append(soundOne, soundTwo, soundThree, soundFour,
-    soundFive, soundSix, soundSeven, soundEight, soundNine);
+  soundFive, soundSix, soundSeven, soundEight, soundNine);
 mainContainer.appendChild(drums);
 
 const audio1 = new Audio('sounds/boom.wav');
@@ -24,13 +24,14 @@ const audio8 = new Audio('sounds/snare.wav');
 const audio9 = new Audio('sounds/tom.wav');
 
 function soundPlayer(audio) {
-    audio.play();
+  audio.currentTime = 0;
+  audio.play();
 }
 
 function addSound(element, sound) {
-    element.addEventListener('click', () => {
-        soundPlayer(sound);
-    });
+  element.addEventListener('click', () => {
+    soundPlayer(sound);
+  });
 }
 
 
@@ -55,11 +56,11 @@ soundNine.classList.add('sound-child');
 addSound(soundNine, audio9);
 
 const addTextElements = (container, soundText) => {
-    const subTitle = document.createElement('p');
-    subTitle.classList.add('sub-title');
-    subTitle.innerHTML = soundText;
+  const subTitle = document.createElement('p');
+  subTitle.classList.add('sub-title');
+  subTitle.innerHTML = soundText;
 
-    container.append(subTitle);
+  container.append(subTitle);
 };
 
 

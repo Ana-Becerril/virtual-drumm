@@ -1,4 +1,4 @@
-##🥁🎵Virtual Drums
+## 🥁🎵Virtual Drums
 
 This project focuses on replicate the sounds of a drum kit to form little melodies
 
